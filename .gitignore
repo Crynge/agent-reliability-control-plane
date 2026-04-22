@@ -1,3 +1,4 @@
 node_modules/
 storage/control-plane-db.json
-
+__pycache__/
+*.pyc
