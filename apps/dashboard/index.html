@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agent Reliability Control Plane</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Reliability Control Plane</p>
+          <h1>Make agents resumable, inspectable, and safe under pressure.</h1>
+          <p class="lede">
+            Built for teams whose agent demos worked beautifully until the first timeout, malformed tool call, or duplicate webhook hit production.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="signal-bar">
+            <span>Stateful</span>
+            <span>Replayable</span>
+            <span>Governed</span>
+          </div>
+          <div class="hero-grid" id="summary-cards"></div>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <section class="panel runs-panel">
+          <div class="panel-head">
+            <h2>Run Registry</h2>
+            <button id="seed-run-button" class="accent-button">Start Demo Run</button>
+          </div>
+          <div id="runs-list" class="runs-list"></div>
+        </section>
+
+        <section class="panel detail-panel">
+          <div class="panel-head">
+            <h2>Run Timeline</h2>
+            <span id="selected-run-status" class="status-pill">Select a run</span>
+          </div>
+          <div id="run-detail" class="timeline empty-state">Choose a run to inspect its checkpoints, failures, approvals, and replays.</div>
+        </section>
+      </section>
+
+      <section class="metrics-grid">
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Failure Taxonomy</h2>
+          </div>
+          <div id="failure-taxonomy" class="metric-stack"></div>
+        </section>
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Policy Gates</h2>
+          </div>
+          <div id="policy-list" class="metric-stack"></div>
+        </section>
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Eval Suite</h2>
+          </div>
+          <div id="scenario-list" class="metric-stack"></div>
+        </section>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
+
