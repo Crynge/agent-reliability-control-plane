@@ -1,5 +1,17 @@
 # Agent Reliability Control Plane
 
+<!-- portfolio-seo:start -->
+![Stars](https://img.shields.io/github/stars/Crynge/agent-reliability-control-plane?style=flat-square) ![License](https://img.shields.io/github/license/Crynge/agent-reliability-control-plane?style=flat-square) ![Status](https://img.shields.io/badge/status-active-blue?style=flat-square)
+
+![Social Preview](docs/social-preview.png)
+
+> Reliability control plane for production AI agents with durable execution, replay, evals, observability, and policy controls.
+
+**GitHub Search Keywords:** ai agent reliability, durable execution, agent observability, agent evals, replayable incidents, control plane, typescript sdk, python sdk
+
+<!-- portfolio-seo:end -->
+
+
 Agent Reliability Control Plane is a startup-style prototype for teams shipping multi-step AI agents in production. It focuses on the painful operational gap between a working demo and a resilient system: failed recovery, weak observability, poor replay, unsafe retries, and missing approval controls.
 
 This prototype ships with:
@@ -62,7 +74,7 @@ The narrow promise is simple:
 
 ## Why this exists
 
-Most agent teams do not need a “more autonomous” model first. They need:
+Most agent teams do not need a "more autonomous" model first. They need:
 
 - durable state
 - reproducible traces
