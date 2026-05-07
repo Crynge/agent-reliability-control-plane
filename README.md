@@ -11,6 +11,15 @@
 
 <!-- portfolio-seo:end -->
 
+<!-- portfolio-links:start -->
+<div align="center">
+
+[Documentation](docs) &middot; [Architecture](docs/architecture.md) &middot; [Contributing](CONTRIBUTING.md) &middot; [Security](SECURITY.md) &middot; [Authors](AUTHORS.md) &middot; [Workflows](.github/workflows)
+
+</div>
+<!-- portfolio-links:end -->
+
+
 
 Agent Reliability Control Plane is a startup-style prototype for teams shipping multi-step AI agents in production. It focuses on the painful operational gap between a working demo and a resilient system: failed recovery, weak observability, poor replay, unsafe retries, and missing approval controls.
 
